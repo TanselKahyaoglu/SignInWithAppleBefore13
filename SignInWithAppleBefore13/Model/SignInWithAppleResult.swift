@@ -7,19 +7,7 @@
 //
 
 import Foundation
-/*
-public struct SignInWithAppleResult {
-    
-    public var code: String
-    public var success: Bool
-    
-    init(code: String, success: Bool) {
-        self.code = code
-        self.success = success
-    }
 
-}
-*/
 public enum SignInWithAppleResult {
     case Success(code: String), Cancelled, Failed
     
