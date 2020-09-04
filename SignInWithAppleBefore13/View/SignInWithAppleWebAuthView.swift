@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import WebKit
 
-public class SignInWithAppleWebAuthView: UIView {
+class SignInWithAppleWebAuthView: UIView {
     
     //Completion closure for result
     private var onCompletion: ((SignInWithAppleResult) -> Void)?

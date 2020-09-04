@@ -25,7 +25,7 @@ public class SignInWithAppleButton: UIButton {
     }
     
     private var configuration: SignInWithAppleConfiguration?
-    private var buttonStyle: SignInWithAppleButtonStyle = .White
+    public var buttonStyle: SignInWithAppleButtonStyle = .White
     
     public var onCompletion: ((SignInWithAppleResult)->Void)?
     
