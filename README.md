@@ -1,8 +1,8 @@
-# Sign in with Apple Framework for before iOS 13
+# Sign in with Apple Framework before iOS 13
 
 ## About The Project
 
-This framework allows you to use Sign in with Apple before iOS 13. It uses <a href="https://developer.apple.com/documentation/sign_in_with_apple/sign_in_with_apple_js/incorporating_sign_in_with_apple_into_other_platforms">Incorporating Sign in with Apple into Other Platforms</a> guides from Apple. You can use this framework as a submodule.
+This framework allows you to use Sign in with Apple before iOS 13. It uses <a href="https://developer.apple.com/documentation/sign_in_with_apple/sign_in_with_apple_js/incorporating_sign_in_with_apple_into_other_platforms">Incorporating Sign in with Apple into Other Platforms</a> guides from Apple. This framework can only get a single-use authorization code. So, you should do all other operations on your application server. You can use this framework as a submodule.
 
 ## Getting Started
 
@@ -102,6 +102,8 @@ I'm really open for contributing. We can make this project great together.
 
   https://developer.apple.com
   https://developer.apple.com/documentation/sign_in_with_apple/sign_in_with_apple_js/incorporating_sign_in_with_apple_into_other_platforms
+  https://developer.apple.com/documentation/sign_in_with_apple/sign_in_with_apple_rest_api/verifying_a_user
+  https://developer.apple.com/documentation/sign_in_with_apple/generate_and_validate_tokens
 
 <!-- LICENSE -->
 ## License
